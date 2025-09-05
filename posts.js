@@ -1,0 +1,38 @@
+// Posts data file - Add new posts here
+window.POSTS = [
+  {
+    title: "Hylo: Dual-token DeFi on Solana (Intro)",
+    url: "https://x.com/SkippyDoo_/status/1963122010772677003",
+    tags: ["DEX"],
+    date: "2025-09-03",
+    summary: "Overview of @hylo_so: hyUSD yield-bearing stablecoin and xSOL leveraged exposure without liquidation; Stability Pool dynamics and early risks."
+  },
+  {
+    title: "Hylo Math: Leverage Without Liquidation",
+    url: "https://x.com/SkippyDoo_/status/1963144813597036594",
+    tags: ["DEX"],
+    date: "2025-09-03",
+    summary: "Walkthrough of the collateral formula and examples showing how xSOL absorbs volatility while hyUSD stays stable; notes on collateral ratio and pool behavior."
+  },
+  {
+    title: "Trading 101: Hedging",
+    url: "https://x.com/SkippyDoo_/status/1963164707063501034",
+    tags: ["Trading 101"],
+    date: "2025-09-03",
+    summary: "Practical intro to hedging BTC: pair spot holdings with short perps or puts to smooth drawdowns and survive volatility."
+  },
+  {
+    title: "Momentum Finance: LP Guide",
+    url: "https://x.com/SkippyDoo_/status/1934841649596911826",
+    tags: ["DEX"],
+    date: "2025-06-17",
+    summary: "How to provide liquidity on Momentum (@MMTFinance), choose pools/ranges, earn fees and Bricks points; stable vs volatile pairs."
+  },
+  {
+    title: "Nomstead: Web3 Gaming Impression",
+    url: "https://x.com/SkippyDoo_/status/1953696179264651448",
+    tags: ["Web3 Gaming"],
+    date: "2025-08-08",
+    summary: "First look at @NomSteadGame—casual sandbox MMORPG with player economy; mobile/browser playable and actually fun."
+  }
+];

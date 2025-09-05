@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Skippy Doo – Trading Links</title>
+  <meta name="description" content="Skippy Doo – curated trading posts and referrals.">
+  <meta name="theme-color" content="#fff3d6">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <div class="profile-card">
+        <img class="avatar" src="assets/profile.png" alt="Skippy Doo profile picture" width="72" height="72" />
+        <div class="profile-info">
+          <a class="profile-name" href="https://x.com/SkippyDoo_" target="_blank" rel="noopener noreferrer">Skippy
+            Doo</a>
+          <a class="profile-handle" href="https://x.com/SkippyDoo_" target="_blank"
+            rel="noopener noreferrer">@SkippyDoo_</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Referrals Section -->
+    <section class="section" aria-labelledby="referralsTitle">
+      <h2 id="referralsTitle" class="section-title">Referrals & Product Links</h2>
+      <div class="referrals-list" id="referrals">
+        <div class="loading">Loading referrals...</div>
+      </div>
+    </section>
+
+    <!-- Posts Section -->
+    <section class="section" aria-labelledby="postsTitle">
+      <h2 id="postsTitle" class="section-title">Trading Posts</h2>
+      <div class="stats-nav" aria-label="Statistics">
+        <span class="stat-pill">Total: <span id="totalPosts">0</span> posts</span>
+        <span class="stat-pill" id="activeFilter">All</span>
+      </div>
+      <input class="search-input" id="search" type="search" placeholder="Search posts..." aria-label="Search posts">
+      <div class="filters" id="filters" role="group" aria-label="Filter by tag">
+        <div class="loading">Loading filters...</div>
+      </div>
+      <div class="posts-grid" id="posts">
+        <div class="loading">Loading posts...</div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Follow SkippyDoo for more contents.</p>
+    </footer>
+  </div>
+
+  <!-- Load data files first -->
+  <script src="posts.js"></script>
+  <script src="referrals.js"></script>
+  <!-- Then load the main script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
