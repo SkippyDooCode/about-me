@@ -8,7 +8,7 @@ window.REFERRALS = [
   {
     name: "Hylo",
     url: "https://hylo.so/leverage?ref=P4O7ZT",
-    blurb: "Solana DeFi with dual-token system."
+    blurb: "Solana DeFi dual-token DEX (hyUSD/xSOL)."
   },
   {
     name: "Nomstead",

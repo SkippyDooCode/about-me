@@ -10,6 +10,10 @@
   --accent-2: #fbbf24;
   --link: #cc7722;
   --shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  /* Button colors for Shiba theme */
+  --btn-go: #e67e22;
+  --btn-like: #e74c3c;
+  --btn-share: #16a085;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,6 +28,10 @@
     --accent-2: #f5c84b;
     --link: #ffb057;
     --shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* Dark mode button colors */
+    --btn-go: #ff8c42;
+    --btn-like: #ff6b6b;
+    --btn-share: #4ecdc4;
   }
 }
 
@@ -275,27 +283,24 @@ body {
   text-decoration: none;
   text-align: center;
   transition: all 0.2s;
-}
-
-.btn-primary {
-  background: var(--accent);
   color: white;
 }
 
+.btn-primary {
+  background: var(--btn-go);
+}
+
 .btn-secondary {
-  background: var(--accent-2);
-  color: var(--text);
+  background: var(--btn-like);
 }
 
 .btn-outline {
-  background: transparent;
-  border: 1px solid var(--border);
-  color: var(--link);
+  background: var(--btn-share);
 }
 
 .btn:hover {
+  filter: brightness(1.1);
   transform: translateY(-1px);
-  opacity: 0.9;
 }
 
 /* Referrals */
@@ -335,18 +340,15 @@ body {
   font-size: 0.875rem;
 }
 
-/* Loading */
-.loading {
+/* Loading & Empty states */
+.loading,
+.empty-state {
   text-align: center;
   padding: 2rem;
   color: var(--muted);
 }
 
-/* Empty state */
 .empty-state {
-  text-align: center;
-  padding: 2rem;
-  color: var(--muted);
   background: var(--card);
   border-radius: 14px;
   border: 1px solid var(--border);
