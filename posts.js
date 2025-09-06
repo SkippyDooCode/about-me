@@ -1,6 +1,13 @@
 // Posts data file - Add new posts here
 window.POSTS = [
   {
+    title: "The Beacon: Web3 Rogue-Like Game Early Impression",
+    url: "https://x.com/SkippyDoo_/status/1964304817385345417",
+    tags: ["Web3 Gaming"],
+    date: "2025-09-06",
+    summary: "Play test review at The Beacon, a Web3 rogue-like dungeon crawler. Fun gameplay, solid mechanics, and promising future updates."
+  },
+  {
     title: "Hylo: Dual-token DeFi on Solana (Intro)",
     url: "https://x.com/SkippyDoo_/status/1963122010772677003",
     tags: ["DEX"],
