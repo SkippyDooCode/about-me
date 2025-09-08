@@ -5,7 +5,7 @@ window.POSTS = [
     url: "https://x.com/SkippyDoo_/status/1964951202916966591",
     tags: ["DEX"],
     date: "2025-09-08",
-    summary: "Hypiq is a prediction market on top of Hyperliquid, offering chained predictions where users can stack multiple predictions for exponential rewards"
+    summary: "Hypiq is a prediction market on top of Hyperliquid, offering chained predictions where users can stack multiple predictions for exponential rewards."
   },
   {
     title: "The Beacon: Web3 Rogue-Like Game Early Impression",
