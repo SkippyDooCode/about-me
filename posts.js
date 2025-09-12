@@ -47,6 +47,6 @@ window.POSTS = [
     url: "https://x.com/SkippyDoo_/status/1953696179264651448",
     tags: ["Web3 Gaming"],
     date: "2025-08-08",
-    summary: "First look at @NomSteadGame—casual sandbox MMORPG with player economy; mobile/browser playable and actually fun."
+    summary: "First look at @NomSteadGame - casual sandbox MMORPG with player economy; mobile/browser playable and actually fun."
   }
 ];
